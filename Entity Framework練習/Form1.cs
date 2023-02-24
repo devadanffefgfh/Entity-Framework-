@@ -38,5 +38,11 @@ namespace Entity_Framework練習
             var form = new QueryForm();
             form.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var form =new ModifyForm();
+            form.ShowDialog();
+        }
     }
 }

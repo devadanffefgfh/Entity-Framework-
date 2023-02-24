@@ -64,9 +64,10 @@ namespace Entity_Framework練習
             dataGridView1.DataSource= products;
             
             MessageBox.Show("查詢成功");
-            
+            query_conext.SaveChanges();
            
         }
-       
+
+     
     }
 }
